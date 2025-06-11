@@ -1,0 +1,27 @@
+﻿  main.cpp
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(13,32): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+F:\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(13,32): message : 尝试匹配参数列表“(int, const char [13])”时
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(16,49): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [23]”转换为“LPCWSTR”
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(16,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(17,49): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [23]”转换为“LPCWSTR”
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(17,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(29,40): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+F:\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+F:\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(29,40): message : 尝试匹配参数列表“(int, int, const char [12])”时
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(30,40): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+F:\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\include\easyx.h(226,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+F:\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\include\easyx.h(225,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(30,40): message : 尝试匹配参数列表“(int, int, const char [12])”时
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(61,86): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [31]”转换为“LPCWSTR”
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(61,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(81,63): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [12]”转换为“LPCWSTR”
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(81,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(85,63): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [12]”转换为“LPCWSTR”
+E:\Code\C++\五子棋\wuziqi\wuziqi\main.cpp(85,22): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9161,1): message : 参见“MessageBoxW”的声明

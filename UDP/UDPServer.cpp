@@ -7,14 +7,15 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 	//运行时有三个参数 udp_src 192.168.73.29 4096
-	//git 测试
+	//git 测试  
+	//自定义仓库测试
 	if (argc != 3)
 	{
 		cout << "Usage: ./udp_srv ip prot\n";
 		return -1;
 	}
 	uint16_t port = stoi(argv[2]);
-	string ip = argv[1];
+	string ip = argv[1];  
 	UdpSocket srv_sock;
 	//创建套接字
 	CHECK_RET(srv_sock.Socket());

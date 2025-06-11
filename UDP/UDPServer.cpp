@@ -38,5 +38,10 @@ int main(int argc, char *argv[])
 	//关闭套接字
 	srv_sock.Close();
 	return 0;
+
+
+
+
+	
 }
 
